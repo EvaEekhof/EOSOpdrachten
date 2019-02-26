@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::string;
+using std::cout;
+using std::getline;
+
+int main()  {
+    int getal;
+    int uitkomst;
+    bool errorcode;
+    cout << "Geef een getal groter dan 0: ";
+    cin >> getal;
+    //for(int  = 0; i > 0; i++){
+    if(getal > 0){
+        uitkomst = getal*2;
+        cout << "Het getal verdubbeld is: " << uitkomst;
+    }else {
+        cout << "Getal is niet groter dan 0.";
+    }
+
+    //return 0;
+}
+//Eva Eekhof 1738785
+// Created by mukpa on 18-2-2019.
+//Opdracht 0
+
